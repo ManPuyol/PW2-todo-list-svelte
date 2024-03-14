@@ -1,9 +1,10 @@
 <script>
     import TaskForm from './TaskForm.svelte';
-    import TaskList from './TaskList.svelte';
+    import TaskList from './TaskList.svelte' 
+    
     let tasks = [];
     
-    function addTask(task) {
+  function addTask(task) {
     tasks = [...tasks, task];
   }
 

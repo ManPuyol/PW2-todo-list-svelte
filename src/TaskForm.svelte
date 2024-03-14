@@ -8,7 +8,7 @@
         taskTitle = ''; // Reset
       }
     }
-  </script>
+</script>
   
   <div class="mb-3">
     <input type="text" bind:value={taskTitle} class="form-control" placeholder="Añade una nueva tarea" on:keyup="{event => event.key === 'Enter' && submitForm()}">
